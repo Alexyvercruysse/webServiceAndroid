@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_6c9777e93570a18dccdae07320a9a751006e96a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_606b624d9ad7fe9ff6333c4560effc71efb28e89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_7fdb3f0e6f63bef0f7a932ee970af2d3e77996ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_931522500f30e5de9f4f07185b7d26955d6b3911.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_73b1dbc6b96b169eabc0977e41c433deec97ab45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-25.0.0_211c0a386ad2122453a4cbe1e0c81f00f6afe004.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_ab0333ca434b5966e2afa02245c3611e3144ef27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_3abda261d9d737b8950bca6b0f486fee75f02732.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_dc7427caebf4926851085f285d41e83ad97cc599.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexy\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_ca3cdc1c78130beabdd1c3953d8d16a9c65765bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexy\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6_cb2e73939dbe0730fc001564f3c5c908d2759263.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.0_c94f8c05486e40cfbbfa53a3a4b80abca0002bd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_58b9126d49eecbc41d6f8b43f7cafe9d74a5fa92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexy\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_6412afbb0e0728abfd671b271049448336e78d6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_77cd2b0f643fecb1400e571dd7fd4261ce14203d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_d751d685ccd79366a8acb2d02c87828a3f91b7bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexy\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_aa0efdf877fd16b263087e51e74671176df72812.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_e082e08a5736aa1d5e984674ff6ccabd9ed36a1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43a08f2cc1bc8e9678b5a1740f3b91b50ab50ac6">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.18.0_d8ff01b011011e3a4b5ab27d2286dc1f1895986c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_330006911697115077b51ff21451457f3d870bb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Project\webServiceAndroid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_de0ce11338a4443e00a2319fb5efcf5300da2348.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexy\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="D:\Project\webServiceAndroid\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.9_02dcf888729ae38775559aebdcec8ff0a4fdf50a.jar" />
+    </item>
+
+</items>
