@@ -9,9 +9,12 @@ import android.widget.Spinner;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
+import org.json.JSONObject;
+
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -24,26 +27,47 @@ import cz.msebera.android.httpclient.Header;
 public class RoutesActivity extends AppCompatActivity {
 
     Spinner spinnerStartStop,spinnerEndStop;
+    private String value;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_routes);
         spinnerStartStop = (Spinner) findViewById(R.id.spinnerStartStop);
         spinnerEndStop = (Spinner) findViewById(R.id.spinnerEndStop);
-        List<String> startStops = new ArrayList<String>(){{add("Choisir le point de départ");add("La raie des fesses");add("L'arrêt de travail");add("La reine des neiges");add("L'arrêt cardiaque");add("L'arection");}};
-        List<String> endStops = new ArrayList<String>(){{add("Choisir le point d'arriver");add("La raie des fesses");add("L'arrêt de travail");add("La reine des neiges");add("L'arrêt cardiaque");add("L'arection");}};
-        ArrayAdapter<String> adapterStart = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,startStops);
-        ArrayAdapter<String> adapterEnd = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,endStops);
-        adapterStart.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        adapterEnd.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinnerStartStop.setAdapter(adapterStart);
-        spinnerEndStop.setAdapter(adapterEnd);
+
+
 
         AsyncHttpClient client = new AsyncHttpClient();
-        client.get("http://www.google.fr/", new AsyncHttpResponseHandler() {
+        client.get("http://192.168.240.36/index.php/Stop/All", new AsyncHttpResponseHandler() {
             @Override
-            public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
-                Log.d("HEy","success");
+            public void onSuccess(int statusCode, Header[] headers, byte[] bytes) {
+
+
+                    try {
+                        List<String> startStops = new ArrayList<String>();
+                        List<String> endStops = new ArrayList<String>();
+                        value = new String(bytes, "UTF-8");
+                        JSONObject obj = new JSONObject(value);
+                        for (int i = 1; i<obj.length(); i++){
+                            JSONObject stop = obj.getJSONObject(""+i);
+                            String name = stop.getString("name");
+                            startStops.add(name);
+                            endStops.add(name);
+                            ArrayAdapter<String> adapterStart = new ArrayAdapter<String>(getApplication(),android.R.layout.simple_list_item_1,startStops);
+                            ArrayAdapter<String> adapterEnd = new ArrayAdapter<String>(getApplication(),android.R.layout.simple_list_item_1,endStops);
+                            adapterStart.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                            adapterEnd.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                            spinnerStartStop.setAdapter(adapterStart);
+                            spinnerEndStop.setAdapter(adapterEnd);
+
+                        }
+
+
+                    } catch (Throwable tx) {
+                        Log.e("My App", "Could not parse malformed JSON: \"" + value + "\"");
+                    }
+
+
             }
 
             @Override

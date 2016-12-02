@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FacebookSdk.sdkInitialize(getApplicationContext());
+//        FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_main);
         ActivityCompat.requestPermissions(MainActivity.this,
                 new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
@@ -65,98 +65,98 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        profilePictureView = (ProfilePictureView) findViewById(R.id.image);
-        loginButton = (LoginButton) findViewById(R.id.login_button);
-        loginButton.setReadPermissions(Arrays.asList(
-                "public_profile", "email", "user_birthday", "user_friends","user_relationships","user_location"));
-        callbackManager = CallbackManager.Factory.create();
-        updateView();
-        AccessTokenTracker accessTokenTracker = new AccessTokenTracker() {
-            @Override
-            protected void onCurrentAccessTokenChanged(AccessToken oldAccessToken, AccessToken currentAccessToken) {
-            updateView();
-            }
-        };
+//        profilePictureView = (ProfilePictureView) findViewById(R.id.image);
+//        loginButton = (LoginButton) findViewById(R.id.login_button);
+//        loginButton.setReadPermissions(Arrays.asList(
+//                "public_profile", "email", "user_birthday", "user_friends","user_relationships","user_location"));
+//        callbackManager = CallbackManager.Factory.create();
+//        updateView();
+//        AccessTokenTracker accessTokenTracker = new AccessTokenTracker() {
+//            @Override
+//            protected void onCurrentAccessTokenChanged(AccessToken oldAccessToken, AccessToken currentAccessToken) {
+//            updateView();
+//            }
+//        };
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        callbackManager.onActivityResult(requestCode, resultCode, data);
-    }
+//    @Override
+//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+//        super.onActivityResult(requestCode, resultCode, data);
+//        callbackManager.onActivityResult(requestCode, resultCode, data);
+//    }
+//
+//    public boolean isLoggedIn() {
+//        AccessToken accessToken = AccessToken.getCurrentAccessToken();
+//        return accessToken != null;
+//    }
+//
+//    public void updateView(){
+//        if (isLoggedIn()){
+//
+//            GraphRequest request = GraphRequest.newMeRequest(
+//                    AccessToken.getCurrentAccessToken(),
+//                    new GraphRequest.GraphJSONObjectCallback() {
+//                        @Override
+//                        public void onCompleted(JSONObject object, GraphResponse response) {
+//                            Log.v("LoginActivity", response.toString());
+//
+//                            // Application code
+//                            try {
+//                                email = object.getString("email");
+//                                birthday = object.getString("birthday"); // 01/31/1980 format
+//                                gender = object.getString("gender");
+//                                name = object.getString("name");
+//                                currentCity = object.getJSONObject("location").getString("name");
+////                                profilePictureView.setProfileId(object.getString("id"));
+////                                profilePictureView.setVisibility(View.VISIBLE);
+//
+//                            } catch (JSONException e) {
+//                                e.printStackTrace();
+//                            }
+//                        }
+//                    });
+//            Bundle parameters = new Bundle();
+//            parameters.putString("fields", "id,name,email,gender,birthday,relationship_status,location");
+//            request.setParameters(parameters);
+//            request.executeAsync();
+//
+//
+//        }
+//        else {
+////            profilePictureView.setVisibility(View.INVISIBLE);
+//        }
+//    }
 
-    public boolean isLoggedIn() {
-        AccessToken accessToken = AccessToken.getCurrentAccessToken();
-        return accessToken != null;
-    }
-
-    public void updateView(){
-        if (isLoggedIn()){
-
-            GraphRequest request = GraphRequest.newMeRequest(
-                    AccessToken.getCurrentAccessToken(),
-                    new GraphRequest.GraphJSONObjectCallback() {
-                        @Override
-                        public void onCompleted(JSONObject object, GraphResponse response) {
-                            Log.v("LoginActivity", response.toString());
-
-                            // Application code
-                            try {
-                                email = object.getString("email");
-                                birthday = object.getString("birthday"); // 01/31/1980 format
-                                gender = object.getString("gender");
-                                name = object.getString("name");
-                                currentCity = object.getJSONObject("location").getString("name");
-                                profilePictureView.setProfileId(object.getString("id"));
-                                profilePictureView.setVisibility(View.VISIBLE);
-
-                            } catch (JSONException e) {
-                                e.printStackTrace();
-                            }
-                        }
-                    });
-            Bundle parameters = new Bundle();
-            parameters.putString("fields", "id,name,email,gender,birthday,relationship_status,location");
-            request.setParameters(parameters);
-            request.executeAsync();
-
-
-        }
-        else {
-            profilePictureView.setVisibility(View.INVISIBLE);
-        }
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode,
-                                           String permissions[], int[] grantResults) {
-        switch (requestCode) {
-            case 1: {
-
-                // If request is cancelled, the result arrays are empty.
-                if (grantResults.length > 0
-                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    GPSTracker gps = new GPSTracker(this);
-                    if (gps.canGetLocation()){
-                        Log.d("GPS","Latitude : "+gps.getLatitude()+" Longitude : "+gps.getLongitude());
-                    }
-                    else {
-                        Log.d("GPS","Failed");
-                    }
-
-                } else {
-
-                    // permission denied, boo! Disable the
-                    // functionality that depends on this permission.
-                    Toast.makeText(MainActivity.this, "Permission denied to acces location, finish", Toast.LENGTH_SHORT).show();
-                    this.finish();
-                }
-                return;
-            }
-
-            // other 'case' lines to check for other
-            // permissions this app might request
-        }
-    }
+//    @Override
+//    public void onRequestPermissionsResult(int requestCode,
+//                                           String permissions[], int[] grantResults) {
+//        switch (requestCode) {
+//            case 1: {
+//
+//                // If request is cancelled, the result arrays are empty.
+//                if (grantResults.length > 0
+//                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+//                    GPSTracker gps = new GPSTracker(this);
+//                    if (gps.canGetLocation()){
+//                        Log.d("GPS","Latitude : "+gps.getLatitude()+" Longitude : "+gps.getLongitude());
+//                    }
+//                    else {
+//                        Log.d("GPS","Failed");
+//                    }
+//
+//                } else {
+//
+//                    // permission denied, boo! Disable the
+//                    // functionality that depends on this permission.
+//                    Toast.makeText(MainActivity.this, "Permission denied to acces location, finish", Toast.LENGTH_SHORT).show();
+//                    this.finish();
+//                }
+//                return;
+//            }
+//
+//            // other 'case' lines to check for other
+//            // permissions this app might request
+//        }
+//    }
 
 }
