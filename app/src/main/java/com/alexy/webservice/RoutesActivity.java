@@ -6,6 +6,8 @@ import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
+import com.alexy.webservice.Services.HttpService;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
@@ -20,9 +22,14 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import cz.msebera.android.httpclient.Header;
+
+import static com.alexy.webservice.R.id.spinnerEndStop;
+import static com.alexy.webservice.R.id.spinnerStartStop;
 
 public class RoutesActivity extends AppCompatActivity {
 
@@ -35,46 +42,42 @@ public class RoutesActivity extends AppCompatActivity {
         spinnerStartStop = (Spinner) findViewById(R.id.spinnerStartStop);
         spinnerEndStop = (Spinner) findViewById(R.id.spinnerEndStop);
 
-
-
         AsyncHttpClient client = new AsyncHttpClient();
         client.get("http://192.168.240.36/index.php/Stop/All", new AsyncHttpResponseHandler() {
             @Override
-            public void onSuccess(int statusCode, Header[] headers, byte[] bytes) {
+            public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
+                ObjectMapper mapper = new ObjectMapper();
+                try {
+                    Map<String, Object> result  = mapper.readValue(responseBody, Map.class);
+                    List<String> listStops = new ArrayList<>();
 
-
-                    try {
-                        List<String> startStops = new ArrayList<String>();
-                        List<String> endStops = new ArrayList<String>();
-                        value = new String(bytes, "UTF-8");
-                        JSONObject obj = new JSONObject(value);
-                        for (int i = 1; i<obj.length(); i++){
-                            JSONObject stop = obj.getJSONObject(""+i);
-                            String name = stop.getString("name");
-                            startStops.add(name);
-                            endStops.add(name);
-                            ArrayAdapter<String> adapterStart = new ArrayAdapter<String>(getApplication(),android.R.layout.simple_list_item_1,startStops);
-                            ArrayAdapter<String> adapterEnd = new ArrayAdapter<String>(getApplication(),android.R.layout.simple_list_item_1,endStops);
-                            adapterStart.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                            adapterEnd.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                            spinnerStartStop.setAdapter(adapterStart);
-                            spinnerEndStop.setAdapter(adapterEnd);
-
-                        }
-
-
-                    } catch (Throwable tx) {
-                        Log.e("My App", "Could not parse malformed JSON: \"" + value + "\"");
+                    for(String str : result.keySet()){
+                        Map<String, Object> stop = (Map<String,Object>)result.get(str);
+                        String nameStop = (String) stop.get("name");
+                        listStops.add(nameStop);
                     }
 
+                    ArrayAdapter<String> adapterStart = new ArrayAdapter<>(getApplication(), android.R.layout.simple_list_item_1, listStops);
+                    ArrayAdapter<String> adapterEnd = new ArrayAdapter<>(getApplication(), android.R.layout.simple_list_item_1, listStops);
+                    adapterStart.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                    adapterEnd.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                    spinnerStartStop.setAdapter(adapterStart);
+                    spinnerEndStop.setAdapter(adapterEnd);
 
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
-                Log.d("HEy","failure");
+                error.printStackTrace();
+                Log.e("HttpError","GET REQUEST ERROR" + error.getMessage());
             }
         });
+
+
+
 
     }
 }
