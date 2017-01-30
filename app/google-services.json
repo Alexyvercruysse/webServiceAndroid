@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "462643436319",
+    "project_id": "webserviceandroid-151313"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462643436319:android:31f3a1f3f7993d97",
+        "android_client_info": {
+          "package_name": "com.alexy.webservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462643436319-7esh58t1joqec73pj60vub5ep7u1dvt5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alexy.webservice",
+            "certificate_hash": "EA0748B553720805D7A825BE873D5F904BC83455"
+          }
+        },
+        {
+          "client_id": "462643436319-2rov4j806j6dpa5nt4trqcrdpk5ugfoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlT62LgRL_OzDI4mqhTQntzaH7cQ6d72E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

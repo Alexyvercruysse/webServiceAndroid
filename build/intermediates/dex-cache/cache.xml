@@ -2,229 +2,292 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_aca160439a27c1e6d0b8eae865a84f99c41070c2.jar" />
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.0.0_9fb0ad11ee8426d987fe28a500e14aab410162bf/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_55d2cd9e09e4e4a29e2bbadf80ddf89186d5b979.jar" />
+        sha1="ffc6ad9947d63f764bb72ecd27e0883a27cba823">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4663358bd0cc5d85d23ab578058e45d918b48c39/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.18.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43a08f2cc1bc8e9678b5a1740f3b91b50ab50ac6">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.18.0_a82e8196a1df53419ce9902ff38e3d45ee733e99.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_f620634d1d974686d28b3fec8af8a8c23939c10c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_701849b7b9f9ee4f197be32c7adc418c44ab18ae.jar" />
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_9305c4b6fe65372550e1f033c9cb5783510591a8/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_4ecd59b3a7fbf650ee30bf15e4e4abe28269db50.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_c92fac4b123dad76bd59c149a7e3017b5075f775.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.0_93164b00666e837a946d77f9db7369d036d40985.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.7.3/f12e6cd05cbaecd74d16e685d45b627732939e42/jackson-databind-2.7.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f12e6cd05cbaecd74d16e685d45b627732939e42">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/jackson-databind-2.7.3_f3923c6c998300fc7ba3ab19048d3e131ab5cfcb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6_f9fea91b123c531545565fba184f80adde19db7c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_1fcaf60d8c8ced6f0497f0df70ec27738a52c65a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_1f26acbe144ddb48fab479cb22b76117c49fa547.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/iem/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_5c050f617c7812614944ddd6460cf60e95fdec2b.jar" />
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_5c050f617c7812614944ddd6460cf60e95fdec2b/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_bff3eb38f71467a35476e67f771d37e55d3315c9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.7.3/1499b854ae9f370409792db5af1b552dc7d9682f/jackson-core-2.7.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1499b854ae9f370409792db5af1b552dc7d9682f">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/jackson-core-2.7.3_db72c09192e8666ff9713e3730046899897e7f7a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_3478d038eb27f929af917382ad80dbf1a370f701.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_f62080dbcba64cc65fa82a22d2d1c22d98930be1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_e5558b64e9eaff1cd7c35b3a5c61ba0c0f4140b5.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9_5a8c4eb022b3c816071cac4bbb7587c5f58fb682.jar" />
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.9_5a8c4eb022b3c816071cac4bbb7587c5f58fb682/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.7.3/1499b854ae9f370409792db5af1b552dc7d9682f/jackson-core-2.7.3.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_426f7dad8300dad21801566435ff4822fa142a25.jar" />
+        sha1="1499b854ae9f370409792db5af1b552dc7d9682f">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.7.3_db72c09192e8666ff9713e3730046899897e7f7a/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_857287de5783a7e3465bc41cca0a2ed5a173cc23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_bff3eb38f71467a35476e67f771d37e55d3315c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f181f188ec399e9bc8dda6bfb8beefb6be6c2692">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e2f5698b5a5569c2600e9bca24449dd0d601c43c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_c009213e06f5b9e04b367358d4dc7e7829d8675a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.0.0_65b5472d9a5c7dca010abb139ccfcf508c8cc606/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_f62080dbcba64cc65fa82a22d2d1c22d98930be1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.19.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c6047a34af07d6ec4e950ba1dc70ce23ac65ecaa">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.19.0_c8e8ee8ea0132272c0f74f351c0da8f5a649ff7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_c5e08b02756af2f3c52882c2db6758079bba6252.jar" />
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_e79d6a082b52391d7f304f933907643be219cc68/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_7dc17835d73369d180711c673106b99a8d4e6a6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_054b02e764173a27d7ef0b237547f2516cf64c18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_5513eeec465e51a976a53034201ffae8c08c4c4e.jar" />
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_3f9b85fdc9affa4106b0e7a58f57679052ad4606/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_7741ce34d3b0d2734e9373431c678c53fcba471e.jar" />
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_d30972036011abd7591436039424bbd0408cc3ed/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.0.0_2d347cc47957f9111bb80dede0874000daab2b63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_a6856219e0d4f06b5bd11e2e6572aea260a716b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="294d49a66cc1238d9f7fd352136a45622fa98c0f">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.0.0_0f51c465cfaf203d912d0079b3d8f334baec847c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_20ede3ebea44817ddd84654f48c6d82ac75a79e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.3.6_f9fea91b123c531545565fba184f80adde19db7c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.7.3/f12e6cd05cbaecd74d16e685d45b627732939e42/jackson-databind-2.7.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f12e6cd05cbaecd74d16e685d45b627732939e42">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.7.3_f3923c6c998300fc7ba3ab19048d3e131ab5cfcb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_15ee6bb34b5e92a2b6d90b3a7e247f243ffe1783/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.7.3/e250c11c1329c7b6b62442a9743befad78be553c/jackson-annotations-2.7.3.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e250c11c1329c7b6b62442a9743befad78be553c">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.7.3_dc091a311b66866f63b774f62c80411dca450b3a.jar" />
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.7.3_dc091a311b66866f63b774f62c80411dca450b3a/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_94a220cb05ccaa1eb5e51297028a5931ecf4b05a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_8294907714a55722b5bb3fcbdc7ca362d379aa6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_1a7621c0b3f468b02c3d73a1cc92361759b63e1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.0.0_046555dc5b364d99269dbd994b7dfba59ba4749c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.0_684997564905f9e7ecd8fba94d49af759db0de55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
-        <dex dex="/Users/iem/Desktop/Projets/Android/webServiceAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.0.0_8b03c78399af78e8e7b816930c3a5a9a12f7a722.jar" />
+        <dex dex="/Users/iem/Documents/git/webServiceAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-customtabs-25.0.0_f4f3ebe3674a565a0241e9a58bb47b21b74dc799/classes.dex" />
     </item>
 
 </items>

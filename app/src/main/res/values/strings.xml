@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">webService</string>
     <string name="facebook_app_id">563476563846539</string>
-
+    <string name="google_app_id">462643436319-7esh58t1joqec73pj60vub5ep7u1dvt5.apps.googleusercontent.com</string>
 </resources>
